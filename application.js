@@ -1,20 +1,18 @@
 $(document).ready(function() {
 	$("button:first, .hover-intro.left").hover(function(){
+		$("#intro").hide();
 		$(".hover-intro.left").removeClass("hidden");
-		$("#intro").hide();
 	}, function(){
+		$("#intro").show();
 		$(".hover-intro.left").addClass("hidden")
-		$("#intro").show();
-		
 	});	
+	
 	$("button#middle, .hover-intro.center").hover(function(){
-		$(".hover-intro.center").removeClass("hidden");
 		$("#intro").hide();
-		
+		$(".hover-intro.center").removeClass("hidden");
 	}, function(){
-		$(".hover-intro.center").addClass("hidden")
 		$("#intro").show();
-		
+		$(".hover-intro.center").addClass("hidden")
 	});	
 
 	$("button:last, .hover-intro.right").hover(function(){

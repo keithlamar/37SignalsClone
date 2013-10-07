@@ -126,7 +126,7 @@ header li:last-child:hover {
 	color: #336699;
 }
 
-/* top section positioning */
+/* top section positioning and style*/
 section {
 	clear: both;
 	margin: auto;
@@ -173,9 +173,19 @@ section {
     position: relative;
 }
 
+.hover-intro:hover{
+	cursor: pointer;
+}
+
+.hover-intro span{
+	color: #369;
+	text-decoration: underline;
+}
+
 .hover-intro h1 {
 	font-size: 40px;
 	padding-bottom: 20px;
+	font-weight: bold;
 
 }
 

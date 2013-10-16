@@ -7,7 +7,7 @@ $(document).ready(function() {
 		$(".hover-intro.left").addClass("hidden")
 	});	
 	
-	$("button#middle, .hover-intro.center").hover(function(){
+	$("button.nthchild(1), .hover-intro.center").hover(function(){
 		$("#intro").hide();
 		$(".hover-intro.center").removeClass("hidden");
 	}, function(){
